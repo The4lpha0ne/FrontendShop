@@ -1,0 +1,93 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
+
+:root {
+    --primario: #9C27B0;
+    --primarioOscuro: #89119D;
+    --secundario: #FFCE00;
+    --secundarioOscuro: rgb(233, 187, 2);
+    --blanco: #FFF;
+    --negro: #000;
+    --fuentePrincipal: 'Staatliches', cursive;
+
+
+    --yellow1: #FFC107;
+    --blue2: #0097A7;
+    --Charcoal: #36454F; 
+    --DeepBlue: #0021f3; 
+    --BlueViolet: #8a2be2; 
+    --NeonGreen: #39ff14; 
+    --MalachiteGreen: #0BDA51; 
+    --CrimsonRed: #990000; 
+    --DeepOrange: #dc4d01;
+}
+
+/****************************************************************************************************/
+/****************************************************************************************************/
+
+/* width */
+::-webkit-scrollbar {
+    width: auto;
+}
+
+/* Track */
+::-webkit-scrollbar-track-piece {
+    background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--yellow1);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--BlueViolet);
+}
+
+html, body {
+    overflow-x: hidden;
+    scrollbar-color: #FFC107 black;
+    scrollbar-width: auto;
+}
+
+/****************************************************************************************************/
+/****************************************************************************************************/
+
+html {
+    font-size: 62.5%;
+}
+
+/**Globales**/
+
+/*1rem = 10px*/
+body {
+    font-size: 1.6rem;
+    font-family: 'Staatliches', cursive;
+    background-color: var(--primario);
+}
+
+/*Header*/
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header__logo {
+    margin: 3rem;
+}
+
+/*Navegación*/
+
+
+/****************************************************************************************************/
+/****************************************************************************************************/
+/****************************************************************************************************/
+/****************************************************************************************************/
+/****************************************************************************************************/
+/****************************************************************************************************/
