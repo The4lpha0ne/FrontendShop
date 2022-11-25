@@ -64,12 +64,15 @@ html {
 }
 
 /**Globales**/
-
 /*1rem = 10px*/
 body {
     font-size: 1.6rem;
     font-family: 'Staatliches', cursive;
     background-color: var(--primario);
+}
+
+a {
+    text-decoration: none;
 }
 
 /*Header*/
@@ -85,6 +88,36 @@ body {
 /*Navegación*/
 .navegacion {
     background-color: var(--primarioOscuro);
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem 0rem 1rem 0rem;
+}
+ 
+.navegacion__enlace {
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 3rem;
+    font-family: var(--fuentePrincipal);
+}
+
+.navegacion__enlace--activo {
+    color: var(--secundario);
+    text-decoration: none;
+    font-size: 3rem;
+    font-family: var(--fuentePrincipal);
+}
+
+.navegacion__enlace:hover {
+    color: var(--secundario);
+    text-decoration: none;
+    /* font-size: 4rem; */
+}
+
+.navegacion__enlace--activo:hover {
+    color: var(--DeepBlue);
+    text-decoration: none;
+    /* font-size: 4rem; */
 }
 
 /****************************************************************************************************/
